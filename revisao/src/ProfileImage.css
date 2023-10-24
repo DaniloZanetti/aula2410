@@ -1,0 +1,37 @@
+.card {
+    /* Dimensões */
+    width: 300px;
+    height: 400px;
+
+    /* Espaçamento interno */
+    padding: 20px;
+
+    /* Estilo de Borda */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Bordas Arredondadas */
+
+    /* Sombra */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    /* Espaçamneto Externo */
+    margin: 20px;
+
+    /* Outros */
+    background-color: #fff; /* Cord de fundo do Card */
+    overflow: hidden; /* Esconde o Conteúdo que Ultrapassa o tamnho do Card */
+    transition: transform 0.2s; /* Animação suave para hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta o Card um pouco quando o mouse está sobre ele*/
+}
+
+.imagem {
+    width: 100%; /* Faz a imagem ocupar toda a largura do card */
+    border-radius: 6px 6px 0 0; /* Bordas arredondadas apenas na parte superior */
+}
+
+.titulo {
+    font-size: 24px; /* Tamanho da Fonte para o Título */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+}
